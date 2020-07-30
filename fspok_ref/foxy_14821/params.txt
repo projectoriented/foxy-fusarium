@@ -1,0 +1,35 @@
+Command line: /home/mei/.conda/envs/meibio/bin/spades.py	-s	/home/mei/fspok_ref/foxy_14821/SRR7690004-aln_1.fastq	-s	/home/mei/fspok_ref/foxy_14821/SRR7690004-aln_2.fastq	--careful	--cov-cutoff	auto	-o	/home/mei/fspok_ref/foxy_14821	
+
+System information:
+  SPAdes version: 3.13.0
+  Python version: 2.7.17
+  OS: Linux-4.15.0-72-generic-x86_64-with-debian-buster-sid
+
+Output dir: /home/mei/fspok_ref/foxy_14821
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: single
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/home/mei/fspok_ref/foxy_14821/SRR7690004-aln_1.fastq', '/home/mei/fspok_ref/foxy_14821/SRR7690004-aln_2.fastq']
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned ON and threshold will be auto-detected
+Other parameters:
+  Dir for temp files: /home/mei/fspok_ref/foxy_14821/tmp
+  Threads: 16
+  Memory limit (in Gb): 250
+
